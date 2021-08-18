@@ -1,0 +1,53 @@
+.navbar__Container {
+  background: black;
+  color: white;
+  min-height: 10vh;
+}
+
+.navbar__Main {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.navbar__Main h1,
+ul {
+  flex: 1 1 40rem;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+}
+
+.navbar__Container ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav__Button {
+  padding: 2rem;
+}
+
+.nav__Button:hover {
+  background: #ff5487;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* Media-Queries */
+
+@media screen and (max-width: 932px) {
+  .navbar__Main h1 {
+    text-align: center;
+    padding: 2rem 0rem;
+  }
+}
+
+@media screen and (max-width: 893px) {
+  .navbar__Main {
+    width: 70%;
+  }
+}

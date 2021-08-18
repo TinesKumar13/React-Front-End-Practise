@@ -1,0 +1,36 @@
+.footer__Container {
+  background: #ff5487;
+}
+
+.footer__Main {
+  min-height: 8vh;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer__Main h1 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  flex: 1 1 40rem;
+}
+
+.icons__Contact {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1 1 40rem;
+}
+
+@media screen and (max-width: 651px) {
+  .footer__Main h1 {
+    text-align: center;
+    padding: 2rem 0rem;
+  }
+  .icons__Contact {
+    padding-bottom: 1rem;
+  }
+}
